@@ -16,7 +16,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
     let resp= this.http.get("https://jsonplaceholder.typicode.com/posts")
     resp.subscribe((data)=>
-    (this.users=data)
+    (this.users=data) 
     );
   }
 
